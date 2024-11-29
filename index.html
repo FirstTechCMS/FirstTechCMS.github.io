@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRAB Robotics Team</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">CRAB Robotics Team</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to the CRAB Robotics Team</h1>
+    <p>The FIRST Tech Challenge team at Cambridge Maths School.</p>
+    <a href="#about" class="btn">Learn More</a>
+  </section>
+
+  <section id="about" class="content-section fade-in">
+    <h2>About Us</h2>
+    <p>We are a UK-based team of students representing <a href="https://cms.tela.org.uk/" class="btn-link">Cambridge
+        Maths School</a> in the 2024 to 2025 <a href="https://firstuk.org/" class="btn-link">FIRST Tech Challenge</a>.
+    </p>
+    <p>CRAB stands for Cambridge maths school Robotics Autonomous Build.</p>
+  </section>
+
+  <section id="support" class="content-section fade-in highlight-section">
+    <h2>Support</h2>
+    <p>We would greatly appreciate any donations to help us fund our robot and competition costs.</p>
+    <p>Funds will be used to purchase materials, tools, and transportation.</p>
+    <a href="https://gofund.me/d45aa2a3" class="btn">Donate</a>
+  </section>
+
+  <section id="team" class="team-section fade-in">
+    <h2>Meet Our Team</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <h3>Louise</h3>
+        <p>Team Leader</p>
+      </div>
+      <div class="team-member">
+        <h3>Erik</h3>
+        <p>Lead Programmer</p>
+      </div>
+      <div class="team-member">
+        <h3>Timur</h3>
+        <p>Programmer</p>
+      </div>
+      <div class="team-member">
+        <h3>Rayyan</h3>
+        <p>Programmer</p>
+      </div>
+      <div class="team-member">
+        <h3>Vedant</h3>
+        <p>Design and CAD</p>
+      </div>
+      <div class="team-member">
+        <h3>Hester</h3>
+        <p>Engineer</p>
+      </div>
+      <div class="team-member">
+        <h3>Ewan</h3>
+        <p>Engineer</p>
+      </div>
+      <div class="team-member">
+        <h3>Ivan</h3>
+        <p>Engineer</p>
+      </div>
+      <div class="team-member">
+        <h3>James</h3>
+        <p>Engineer</p>
+      </div>
+      <div class="team-member">
+        <h3>Robert</h3>
+        <p>Engineer</p>
+      </div>
+      <div class="team-member">
+        <h3>Oren</h3>
+        <p>Engineer</p>
+      </div>
+      <div class="team-member">
+        <h3>Sadhbh</h3>
+        <p>Engineer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section fade-in">
+    <h2>Contact</h2>
+    <p>Interested in collaborating? Reach out to us!</p>
+    <ul class="contact-list">
+      <!-- <li><a href="mailto:roboticsclub@example.com" class="btn-link">Email</a></li> -->
+      <li><a href="https://www.instagram.com/cmsftcrobotics/" class="btn-link">Instagram</a></li>
+      <li><a href="https://github.com/FirstTechCMS/FirstTechCMS" class="btn-link">GitHub</a></li>
+      <!-- <li><a href="https://gb.linkedin.com/" class="btn-link">LinkedIn</a></li> -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>2024 CRAB Robotics Team.</p>
+  </footer>
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const fadeElements = document.querySelectorAll('.fade-in');
+    const fadeDelay = 200;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            entry.target.classList.add('visible');
+          }, index * fadeDelay);
+        }
+      });
+    }, {
+      threshold: 0.05
+    });
+
+    fadeElements.forEach(el => observer.observe(el));
+  });
+</script>
+
+</html>
