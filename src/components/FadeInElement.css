@@ -1,0 +1,31 @@
+.fade-in {
+    padding: 4rem max(2rem, 20%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media (max-width: 768px) {
+    .fade-in {
+      padding: 3rem 2rem;
+    }
+  
+    .fade-in h2 {
+      font-size: 2rem;
+    }
+  }
+  

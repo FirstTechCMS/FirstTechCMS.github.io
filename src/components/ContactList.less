@@ -1,0 +1,16 @@
+ul.contact-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+ul.contact-list li::after {
+    content: " ";
+    border-right: 1px solid var(--light-gray);
+    margin: 0 0.5rem;
+}
+
+ul.contact-list li:last-child::after {
+    border-right: none;
+}

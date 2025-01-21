@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  // background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --white: #fff;
+  --light: #f5f5f5;
+  --light-gray: #aaa;
+  --gray: #777;
+  --mid-gray: #333;
+  --dark: #555;
+  --darker: #222;
+  --black: #000;
+  --primary-orange: #ff6600;
+  --secondary-orange: #ff4500;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  color: var(--mid-gray);
+  background: var(--light);
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.btn-link {
+  transition: color 0.3s ease;
+}
+
+a.btn-link:hover {
+  color: var(--primary-orange);
+}
+
+button, .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-orange);
+  color: var(--white);
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background: var(--secondary-orange);
+}
+
+.highlight-section {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  padding: 2rem max(2rem, 5%);
+  color: white;
+  text-align: center;
+}
+
+.highlight-section p {
+  font-size: 1.2rem;
+}
+
+.highlight-section button, .highlight-section .btn {
+  margin-top: 1.1rem;
+  background-color: var(--white);
+  color: var(--primary-orange);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.highlight-section button:hover, .highlight-section .btn:hover {
+  background-color: var(--primary-orange);
+  transform: translateY(-5px);
+  color: var(--white);
+}
+
+.block {
+  height: 3em;  
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.text-left {
+  text-align: left;
+}
