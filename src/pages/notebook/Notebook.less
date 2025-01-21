@@ -1,13 +1,44 @@
 @import '../../index.less';
 
-.contents-list {
-    .two-columns;
+.contents-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     text-align: left;
-    width: fit-content;
-    align-self: center;
+    width: 100%;
     font-size: 1.1rem;
+    column-gap: 1.5em;
+    row-gap: 0.5em;
 }
 
-.contents-list li {
-    margin-left: 2em;
+.contents-list h2 {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 0.25em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.white-img-back {
+    background-color: #fff !important;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.team-page .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
 }

@@ -13,7 +13,7 @@ const Home = () => {
                 <p>The FIRST Tech Challenge team at Cambridge Maths School.</p>
                 <a href="#about" className="btn">Learn More</a>
             </FadeInElement>
-            <FadeInElement id="about" className="content-section">
+            <FadeInElement id="about" className="frontpage-section">
                 <h2>About Us</h2>
                 <p>We are a UK-based team of students representing <a href="https://cms.tela.org.uk/" className="btn-link">Cambridge
                     Maths School</a> in the 2024 to 2025 <a href="https://firstuk.org/" className="btn-link">FIRST Tech Challenge</a>.
@@ -21,14 +21,14 @@ const Home = () => {
                 <p>CRAB stands for Cambridge maths school Robotics Autonomous Build.</p>
             </FadeInElement>
 
-            <FadeInElement id="support" className="content-section highlight-section">
+            <FadeInElement id="support" className="frontpage-section highlight-section">
                 <h2>Support</h2>
                 <p>We would greatly appreciate any donations to help us fund our robot and competition costs.</p>
                 <p>Funds will be used to purchase materials, tools, and transportation.</p>
                 <a href="https://gofund.me/d45aa2a3" className="btn">Donate</a>
             </FadeInElement>
 
-            <FadeInElement id="team" className="team-section content-section">
+            <FadeInElement id="team" className="team-section frontpage-section">
                 <h2>Meet Our Team</h2>
                 <div className="team-grid">
                     <div className="team-member rounded-box">
@@ -57,7 +57,7 @@ const Home = () => {
                     </div>
                     <div className="team-member rounded-box">
                         <h3>James</h3>
-                        <p>Lead Enginner</p>
+                        <p>Lead Engineer</p>
                     </div>
                     <div className="team-member rounded-box">
                         <h3>Hester</h3>
