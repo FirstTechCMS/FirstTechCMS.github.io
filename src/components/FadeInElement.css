@@ -1,8 +1,4 @@
 .fade-in {
-    padding: 4rem max(2rem, 20%);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s ease, transform 1s ease;

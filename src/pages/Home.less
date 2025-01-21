@@ -1,3 +1,5 @@
+@import '../index.less';
+
 .hero {
   background: linear-gradient(to right, var(--mid-gray), var(--dark));
   color: var(--white);
@@ -25,6 +27,7 @@
 
 .team-grid {
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
   justify-items: center;
@@ -32,27 +35,9 @@
 }
 
 .team-member {
-  width: 100%; /* Ensures all items have equal width within the column */
+  .rounded-box;
   background: var(--white);
-  padding: 1.5rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.team-member:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.team-member img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
 }
 
 .team-member h3 {
@@ -63,10 +48,4 @@
 .team-member p {
   font-size: 1rem;
   color: #555;
-}
-
-@media (max-width: 768px) {
-  .team-member {
-    padding: 1rem;
-  }
 }

@@ -31,35 +31,35 @@ const Home = () => {
             <FadeInElement id="team" className="team-section content-section">
                 <h2>Meet Our Team</h2>
                 <div className="team-grid">
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Louise</h3>
                         <p>Team Leader</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Erik</h3>
                         <p>Lead Programmer</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Timur</h3>
                         <p>Programmer</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Rayyan</h3>
                         <p>Programmer</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Vedant</h3>
                         <p>Design and CAD</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Robert</h3>
                         <p>Design and CAD</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>James</h3>
                         <p>Lead Enginner</p>
                     </div>
-                    <div className="team-member">
+                    <div className="team-member rounded-box">
                         <h3>Hester</h3>
                         <p>Engineer</p>
                     </div>
