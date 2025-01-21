@@ -4,6 +4,7 @@ import FadeInElement from '../components/FadeInElement.tsx';
 
 import './home.less';
 import ContactList from '../components/ContactList.tsx';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
             <FadeInElement className="hero">
                 <h1>Welcome to the CRAB Robotics Team</h1>
                 <p>The FIRST Tech Challenge team at Cambridge Maths School.</p>
-                <a href="#about" className="btn">Learn More</a>
+                <Link to="/notebook" className="btn">Notebook</Link>
             </FadeInElement>
             <FadeInElement id="about" className="frontpage-section">
                 <h2>About Us</h2>
