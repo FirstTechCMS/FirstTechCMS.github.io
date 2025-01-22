@@ -62,8 +62,8 @@ const CodeDevelopment = () => {
             <div className="rounded-box">
                 <h3>First Drivetrain Test</h3>
                 <br />
-                <p>We were able to assess our drivetrain control once the drivetrain was assembled. It was necessary to invert the horizontal input axis due to design misinterpretation that led to an incorrect wheel configuration. The robot was able to move in all directions as expected after this correction.</p>
-                <p>The robot does not seem to be gaining good traction, leading to slippage during movement. A system to stabilising the robot's heading may be necessary.</p>
+                <p>We were able to assess our drivetrain control once the drivetrain was assembled. It was necessary to invert the horizontal input axis due to a design misinterpretation that caused an incorrect wheel configuration. The robot was able to move in all directions as expected after this correction.</p>
+                <p>The robot does not seem to be gaining good traction, leading to slippage during movement. A system to stabilise the robot's heading may be necessary.</p>
             </div>
         </FadeInElement>
         <div className="block"/>
