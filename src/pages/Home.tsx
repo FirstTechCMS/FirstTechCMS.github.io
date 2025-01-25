@@ -57,11 +57,11 @@ const Home = () => {
                         <p>Design and CAD</p>
                     </div>
                     <div className="team-member rounded-box">
-                        <h3>James</h3>
+                        <h3>Hester</h3>
                         <p>Lead Engineer</p>
                     </div>
                     <div className="team-member rounded-box">
-                        <h3>Hester</h3>
+                        <h3>James</h3>
                         <p>Engineer</p>
                     </div>
                     <div className="team-member">

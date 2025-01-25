@@ -46,7 +46,7 @@ const CodeDevelopment = () => {
             </div>
         </FadeInElement>
         <FadeInElement className="content-section">
-            <div className="rounded-box white-img-back ">
+            <div className="rounded-box">
                 <img src="./FIRSTTechChallenge2025UML.svg" />
             </div>
         </FadeInElement>
