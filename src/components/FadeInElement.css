@@ -15,11 +15,7 @@
 }
 
 
-@media (max-width: 768px) {
-    .fade-in {
-      padding: 3rem 2rem;
-    }
-  
+@media (max-width: 768px) {  
     .fade-in h2 {
       font-size: 2rem;
     }
