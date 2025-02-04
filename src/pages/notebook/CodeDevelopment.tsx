@@ -46,24 +46,29 @@ const CodeDevelopment = () => {
             </div>
         </FadeInElement>
         <FadeInElement className="content-section">
-            <div className="rounded-box white-img-back ">
-                <img src="./FIRSTTechChallenge2025UML.svg" />
+            <div className="rounded-box">
+                <img src="./VhqyCtJX9M.svg" />
             </div>
         </FadeInElement>
-        {/* <FadeInElement className="content-section">
-            <div className="image-grid">
-                <img src="https://placehold.co/300" className="rounded" />
-                <img src="https://placehold.co/300" className="rounded" />
-                <img src="https://placehold.co/300" className="rounded" />
-                <img src="https://placehold.co/300" className="rounded" />
-            </div>
-        </FadeInElement> */}
-        <FadeInElement className="horizontal-pad">
+        <FadeInElement className="horizontal-pad pad-bottom">
+            <img src="AS52tpGjeR.jpg" className="rounded"/>
+            <p className="img-caption">One of our software members, working hard on implementing the drivetrain system.</p>
+        </FadeInElement>
+        <FadeInElement className="horizontal-pad pad-bottom">
             <div className="rounded-box">
                 <h3>First Drivetrain Test</h3>
+                <p className="entry-date">22-01</p>
                 <br />
                 <p>We were able to assess our drivetrain control once the drivetrain was assembled. It was necessary to invert the horizontal input axis due to a design misinterpretation that caused an incorrect wheel configuration. The robot was able to move in all directions as expected after this correction.</p>
                 <p>The robot does not seem to be gaining good traction, leading to slippage during movement. A system to stabilise the robot's heading may be necessary.</p>
+            </div>
+        </FadeInElement>
+        <FadeInElement className="horizontal-pad pad-bottom">
+            <div className="rounded-box">
+                <h3>Stabilisation</h3>
+                <p className="entry-date">25-01</p>
+                <br />
+                <p>The robot's tendency to rotate when moving has been reduced. Since the front motor was driven by a chain with different-sized gears, it was necessary to correct their power ratio. Sadly, the stabilisation system did not improve movement as expected, as the robot now has difficulty moving in the direction of the joystick. This meant that the overall performance is unfortunately worse than before. After investigation, we were unable to identify any problems with the code that could cause this, and when inspecting the operation of the motors we noticed that the front-left spins a little slow. For now, we have disabled the system, and plan to lubricate all moving parts to attempt to resolve this issue.</p>
             </div>
         </FadeInElement>
         <div className="block"/>

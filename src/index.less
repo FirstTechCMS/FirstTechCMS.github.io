@@ -38,14 +38,24 @@ a {
 
 h1 {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 1rem;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
 }
 
 body {
@@ -67,6 +77,11 @@ a.btn-link {
 
 a.btn-link:hover {
   color: var(--primary-orange);
+}
+
+ol {
+  list-style-type: decimal;
+  padding-inline-start: 40px;
 }
 
 button, .btn {
@@ -131,6 +146,12 @@ button:hover, .btn:hover {
   color: var(--white);
 }
 
+.img-caption {
+  color: var(--dark);
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .block {
   height: 4em;
 }
@@ -172,6 +193,7 @@ code {
   display: inline-block;
   transform: translateY(-0.1em);
   padding: 0.1em 0.4em;
+  line-height: 1.3em;
   background: var(--lighter-gray);
   border-radius: 3px;
 }

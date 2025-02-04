@@ -17,7 +17,7 @@ const Team = () => {
                 <TeamMemberBio name="Erik Hurinek" year="13" experience="Freight Frenzy (2021-2022)" role="Lead Software Engineer" interests="Software Development, 3D Rendering, AI" other="" />
                 <TeamMemberBio name="Timur Perfilov" year="13" experience="None" role="Software Engineer" interests="Maths, Computer Science" other="" />
                 <TeamMemberBio name="Rayyan Ansari" year="12" experience="None" role="Software Engineer" interests="Computer Science" other="" />
-                <TeamMemberBio name="Oren Yushin" year="13" experience="None" role="Social media Manager" interests="Maths, Computer Science" other="" />
+                <TeamMemberBio name="Oren Yushin" year="13" experience="None" role="Social Media Manager" interests="Maths, Computer Science" other="" />
                 <TeamMemberBio name="Hester Clapp" year="13" experience="None" role="Drivetrain Engineer" interests="Trains, Web development" other="" />
                 <TeamMemberBio name="Sadhbh Gorman" year="12" experience="None" role="Drivetrain Engineer" interests="Computer Science" other="" />
                 <TeamMemberBio name="James" year="12" experience="None" role="Lift Engineer" interests="Computer Science" other="" />
