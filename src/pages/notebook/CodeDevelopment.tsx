@@ -3,6 +3,7 @@ import React from "react";
 import FadeInElement from "../../components/FadeInElement";
 
 import "./Notebook.less";
+import { Link } from "react-router-dom";
 
 const CodeDevelopment = () => {
     return (<>
@@ -10,6 +11,7 @@ const CodeDevelopment = () => {
         <FadeInElement className="content-section">
             <h1>Code Development</h1>
             <p>Our code is written in Java. We are using the FTC SDK to control our robot.</p>
+            <Link className="btn notebook-back" to="/notebook">Back to Notebook</Link>
         </FadeInElement>
         <FadeInElement className="horizontal-pad">
             <div className="rounded-box">
