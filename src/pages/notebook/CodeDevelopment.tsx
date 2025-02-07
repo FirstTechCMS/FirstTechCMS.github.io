@@ -68,7 +68,7 @@ const CodeDevelopment = () => {
         <FadeInElement className="horizontal-pad pad-bottom">
             <div className="rounded-box">
                 <h3>Stabilisation</h3>
-                <p className="entry-date">04-02</p>
+                <p className="entry-date">25-01</p>
                 <br />
                 <p>The robot's tendency to rotate when moving has been reduced. Since the front motor was driven by a chain with different-sized gears, it was necessary to correct their power ratio. Sadly, the stabilisation system did not improve movement as expected, as the robot now has difficulty moving in the direction of the joystick. This meant that the overall performance is unfortunately worse than before. After investigation, we were unable to identify any problems with the code that could cause this, and when inspecting the operation of the motors we noticed that the front-left spins a little slow. For now, we have disabled the system, and plan to lubricate all moving parts to attempt to resolve this issue.</p>
             </div>
@@ -76,11 +76,20 @@ const CodeDevelopment = () => {
         <FadeInElement className="horizontal-pad pad-bottom">
             <div className="rounded-box">
                 <h3>Turning</h3>
-                <p className="entry-date">25-01</p>
+                <p className="entry-date">04-02</p>
                 <br />
                 <p>We cleaned up some redundant code, and implemented the ability to turn without stabilisation. Moving laterally is still sluggish.</p>
             </div>
         </FadeInElement>
+        <FadeInElement className="horizontal-pad pad-bottom">
+            <div className="rounded-box">
+                <h3>Arm</h3>
+                <p className="entry-date">07-02</p>
+                <br />
+                <p>The arm can now be controlled with the second gamepad. The controlling motor uses a default encoder to rotate to a target position. Currently, the encoder seems to overshoot the target position. This will likely be fixed by adjusting the PID coefficients of the motor controller.</p>
+            </div>
+        </FadeInElement>
+        
         <div className="block"/>
     </>)
 };
