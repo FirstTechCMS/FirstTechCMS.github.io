@@ -54,7 +54,7 @@ const CodeDevelopment = () => {
         </FadeInElement>
         <FadeInElement className="horizontal-pad pad-bottom">
             <img src="AS52tpGjeR.jpg" className="rounded"/>
-            <p className="img-caption">One of our software members, working hard on implementing the drivetrain system.</p>
+            <p className="img-caption">One of our software developers, working hard on implementing the drivetrain system.</p>
         </FadeInElement>
         <FadeInElement className="horizontal-pad pad-bottom">
             <div className="rounded-box">
@@ -87,6 +87,15 @@ const CodeDevelopment = () => {
                 <p className="entry-date">07-02</p>
                 <br />
                 <p>The arm can now be controlled with the second gamepad. The controlling motor uses a default encoder to rotate to a target position. Currently, the encoder seems to overshoot the target position. This will likely be fixed by adjusting the PID coefficients of the motor controller.</p>
+            </div>
+        </FadeInElement>
+        <FadeInElement className="horizontal-pad pad-bottom">
+            <div className="rounded-box">
+                <h3>Arm and Claw</h3>
+                <p className="entry-date">12-02</p>
+                <br />
+                <p>The arm moves slightly smoother now that the PID coefficients of the motor encoder have been adjusted, although it is not perfect. Code for the claw has been written, although we are still waiting for its assembly to be finished. We realised that a we are missing two cables to control the second arm motor. Given that we have less than two weeks until our competition, purchasing these cables is not possible. A team member's friend from team Golden Stags at Hinchingbrooke has offered to check and provide these cables if they posses any spare.</p>
+                <p>We also introduced a wrapper class for the gamepad, to better identify changes in button states in a maintainable and extensible way. This makes it easier to handle a range input events.</p>
             </div>
         </FadeInElement>
         
