@@ -19,11 +19,11 @@ const Notebook = () => {
                     <Link to="/notebook/code" className="btn-link">Code Development</Link>
                     <Link to="/notebook/team" className="btn-link">Biographies</Link>
                     <Link to="/notebook/sponsor" className="btn-link">Sponsor Information</Link>
-                    <Link to="/notebook/plan" className="btn-link">Plan Overview</Link>
-                    <Link to="/notebook/business/goal" className="btn-link">Business Plan: Goals</Link>
-                    <Link to="/notebook/business/budget" className="btn-link">Business Plan: Budget</Link>
-                    <Link to="/notebook/strategy" className="btn-link">Strategy</Link>
-                    <Link to="/notebook/sustainability" className="btn-link">Sustainability</Link>
+                    <Link to="/notebook/not-implemented" className="btn-link">Plan Overview</Link>
+                    <Link to="/notebook/not-implemented" className="btn-link">Business Plan: Goals</Link>
+                    <Link to="/notebook/not-implemented" className="btn-link">Business Plan: Budget</Link>
+                    <Link to="/notebook/not-implemented" className="btn-link">Strategy</Link>
+                    <Link to="/notebook/not-implemented" className="btn-link">Sustainability</Link>
                 </div>
             </div>
         </FadeInElement>

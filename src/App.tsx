@@ -11,6 +11,7 @@ import CodeDevelopment from "./pages/notebook/CodeDevelopment";
 import Team from "./pages/notebook/Team";
 import Contact from "./pages/Contact";
 import Sponsor from "./pages/notebook/Sponsor";
+import NotebookNotImplemented from "./pages/notebook/UnderConstruction";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/notebook/code" element={<CodeDevelopment />} />
         <Route path="/notebook/team" element={<Team />} />
         <Route path="/notebook/sponsor" element={<Sponsor />} />
+        <Route path="/notebook/not-implemented" element={<NotebookNotImplemented />} />
       </Routes>
     </Router>
   );
